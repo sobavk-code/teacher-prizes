@@ -1,0 +1,54 @@
+:root {
+  --text-default: #161a33;
+  --text-secondary: #656c94;
+  --text-tertiary: #9399bd;
+  --text-inverse: #ffffff;
+  --text-inverse-secondary: #ffffffb2;
+  --text-brand: #503ae0;
+  --text-link: #1a49c9;
+  --text-danger: #fa3448;
+
+  --bg-white: #ffffff;
+  --bg-secondary: #f0f2ff;
+  --bg-quaternary: #d8dbf0;
+  --bg-brand: #503ae0;
+  --bg-brand-soft: #e0dbff;
+  --white-10: #ffffff1a;
+  --border-secondary: #e4e6f7;
+
+  --icon-default: #161a33;
+  --icon-tertiary: #9399bd;
+  --icon-danger: #fa3448;
+
+  --radius-small: 8px;
+  --radius-medium: 10px;
+  --radius-large: 12px;
+
+  --base-16: 16px;
+  --pad-lr-large: 20px;
+  --pad-tb-large: 16px;
+  --gap-large: 10px;
+  --small-size: 32px;
+  --small-pad-tb: 8px;
+  --small-pad-lr-long: 12px;
+
+  --blur-bg: 32px;
+
+  --font-family: "Onest", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --weight-regular: 400;
+  --weight-medium: 500;
+}
+
+.t-display-h1 { font: var(--weight-medium) 64px/68px var(--font-family); letter-spacing: -1.6px; }
+.t-display-h2 { font: var(--weight-medium) 56px/60px var(--font-family); letter-spacing: -1.4px; }
+.t-display-h4 { font: var(--weight-medium) 40px/48px var(--font-family); letter-spacing: -1px; }
+.t-heading-h2 { font: var(--weight-medium) 32px/36px var(--font-family); letter-spacing: -0.6px; }
+.t-heading-h3 { font: var(--weight-medium) 24px/28px var(--font-family); letter-spacing: -0.2px; }
+.t-heading-h4 { font: var(--weight-medium) 20px/26px var(--font-family); letter-spacing: -0.2px; }
+.t-heading-h5 { font: var(--weight-medium) 18px/24px var(--font-family); letter-spacing: -0.1px; }
+.t-body-large { font: var(--weight-regular) 18px/28px var(--font-family); }
+.t-body-large-accent { font: var(--weight-medium) 18px/28px var(--font-family); }
+.t-body-medium { font: var(--weight-regular) 16px/24px var(--font-family); }
+.t-body-medium-accent { font: var(--weight-medium) 16px/24px var(--font-family); }
+.t-body-small { font: var(--weight-regular) 14px/20px var(--font-family); }
+.t-body-small-accent { font: var(--weight-medium) 14px/20px var(--font-family); }
